@@ -1,6 +1,6 @@
 import pygame
 
-ship_sprite = "sprites\PNG\playerShip3_red.png"
+ship_sprite = "sprites\png\ships\player_ship_3_red.png"
 
 MOVES = {
     "Left": [pygame.image.load(ship_sprite), ],

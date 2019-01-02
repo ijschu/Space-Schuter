@@ -1,9 +1,6 @@
 import pygame
 import random
 
-from pathlib import PurePath
-
-
 class Projectile:
     
     def __init__(self, x_pos, y_pos):
@@ -44,10 +41,10 @@ class Meteor(Projectile):
         y_pos = 0
 
         meteor_options = [
-            ["sprites\PNG\Meteors\meteorBrown_big1.png", 101, 84],
-            ["sprites\PNG\Meteors\meteorBrown_big2.png", 120, 98],
-            ["sprites\PNG\Meteors\meteorBrown_big3.png", 89, 82],
-            ["sprites\PNG\Meteors\meteorBrown_big4.png", 98, 96],
+            ["sprites\png\meteors\\brown_big_1.png", 101, 84],
+            ["sprites\png\meteors\\brown_big_2.png", 120, 98],
+            ["sprites\png\meteors\\brown_big_3.png", 89, 82],
+            ["sprites\png\meteors\\brown_big_4.png", 98, 96],
         ]
 
         self.meteor_selection = random.choice(meteor_options)

@@ -1,6 +1,6 @@
 import pygame
 
-space_tile = pygame.image.load("sprites\Backgrounds\darkPurple.png")
+space_tile = pygame.image.load("sprites\\backgrounds\darkPurple.png")
 
 TILESIZE = 256
 MAPWIDTH = 4
